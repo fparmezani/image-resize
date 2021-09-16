@@ -1,0 +1,36 @@
+{
+  "name": "image-resize",
+  "version": "1.0.0",
+  "description": "Projeto open source para fazer vídeos automatizados",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fparmezani/image-resize.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fparmezani/image-resize/issues"
+  },
+  "homepage": "https://github.com/fparmezani/image-resize#readme",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "express": "^4.16.4",
+    "ffmpeg": "0.0.4",
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
+    "@ffprobe-installer/ffprobe": "^1.0.10",
+    "videoshow": "^0.1.11",
+    "fluent-ffmpeg": "^2.1.2",
+    "gm": "^1.23.1",
+    "googleapis": "^38.0.0",
+    "ibm-watson": "^6.1.2",
+    "image-downloader": "^3.4.2",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.19",
+    "watson-developer-cloud": "^3.18.2"
+  }
+}
